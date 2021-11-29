@@ -1,0 +1,64 @@
+url:demo.browse.php intitle:getid3
+site:simplemachines.org "These are the paths and URLs to your SMF installation"
+allurl:forcedownload.php?file=
+ionCube Loader Wizard information disclosure
+vBulletin Install Page Detection
+url:"simplenews/admin"
+url:updown.php | inbody:"Powered by PHP Uploader Downloader"
+url:guestbook/guestbooklist.asp "Post Date" From
+intitle:"CJ Link Out V1"
+"powered by mailgust"
+"powered by my little forum"
+intitle:"Control panel" "Control Panel Login" ArticleLive url:admin -demo
+url:cartwiz/store/index.asp
+"e107.org 2002/2003" url:forum_post.php?nt
+"maxwebportal" url:"default" "snitz forums" +"homepage" -intitle:maxwebportal
+"Warning:" "Cannot execute a blank command in"
+"Mail-it Now!" intitle:"Contact form" | url:contact.php
+"Powered by Xcomic"
+"Powered by FunkBoard"
+url:nquser.php filetype:php
+"Powered by Gravity Board"
+"Powered by SilverNews"
+PHPFreeNews url:Admin.php
+"Powered by FlexPHPNews" url:news | url:press
+"Powered By: Simplicity oF Upload" url:download.php | url:upload.php
+filetype:mdb "standard jet" (password | username | user | pass)
+intitle:"PHPstat" inbody:"Browser" inbody:"PHPstat setup"
+intitle:"SSHVnc Applet"OR intitle:"SSHTerm Applet"
+url:cgi-bin url:bigate.cgi
+filetype:pl -inbody:"/usr/bin/perl" url:webcal (url:webcal | url:add | url:delete | url:config)
+filetype:mdb url:"news/news"
+url:php.exe filetype:exe -example.com
+"Powered by Land Down Under 601"
+ext:asp url:DUgallery intitle:"3.0" -site:dugall
+ext:asp "powered by DUForum" url:(messages|details|login|default|register) -site:duware.com
+filetype:cgi url:cachemgr.cgi
+"powered by YellDL"
+"File Upload Manager v1.3" "rename to"
+url:click.php inbody:PHPClickLog
+intitle:"phpremoteview" filetype:php "Name, Size,
+intitle:"ASP FileMan" Resend -site:iisworks.com
+ezBOO "Administrator Panel" -cvs
+intitle:mywebftp "Please enter your password"
+intitle:"Directory Listing" "tree view"
+url:changepassword.cgi -cvs
+url:" WWWADMIN.PL" intitle:"wwwadmin"
+url:cgi.asx?StoreID
+filetype:lit lit (books|ebooks)
+"create the Super User" "now by clicking here"
+intitle:gallery url:setup "Gallery configuration"
+url:"nph-proxy.cgi" "Start browsing through this CGI-based proxy"
+url:"plog/register.php"
+link:http://www.toastforums.com/
+url:robpoll.cgi filetype:cgi
+intitle:"PHP Explorer" ext:php (url:phpexplorer.php | url:list.php | url:browse.php)
+ext:cgi url:ubb6_test.cgi
+filetype:wsdl wsdl
+filetype:inc inc inbody:setcookie
+filetype:cnf my.cnf -cvs -example
+filetype:php url:"viewfile" -"index.php" -"idfil
+intitle:"Index of /" modified php.exe
+index.of.?.frm
+intitle:"index of" "nrpe.cfg"
+index of admin/fckeditor/editor/filemanager/
